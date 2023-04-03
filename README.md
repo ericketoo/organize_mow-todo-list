@@ -7,4 +7,10 @@ uma aplicação que me permite criar e gerenciar tarefas, marcando as concluída
 // EN
 <br>
 An application that allows me to create and manage tasks, marking them as completed and giving the option to delete them when necessary. It's also very convenient to be able to unmark tasks if I haven't completed them, making my daily organization and productivity easier.
-
+<br>
+<br>
+<strong> Desktop screen view </strong>
+![toddo-list-desktop](https://user-images.githubusercontent.com/42822606/229564956-0c08d1c8-8447-4147-b5f0-392a6ebd4c87.png)
+<br>
+<br>
+<strong> Mobile screen view </strong>
