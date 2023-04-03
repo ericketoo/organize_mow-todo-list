@@ -1,7 +1,7 @@
 # organize_mow-todo-list
 // pt-br
 <br>
-uma aplicação que me permite criar e gerenciar tarefas, marcando as concluídas e dando a opção de apagá-las quando necessário. É muito prático também poder desmarcar as tarefas caso eu não as tenha concluído, facilitando a minha organização e produtividade no dia a dia.//
+uma aplicação que me permite criar e gerenciar tarefas, marcando as concluídas e dando a opção de apagá-las quando necessário. É muito prático também poder desmarcar as tarefas caso eu não as tenha concluído, facilitando a minha organização e produtividade no dia a dia.
 <br>
 <br>
 // EN
