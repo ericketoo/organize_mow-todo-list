@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+:root{
+    --color-primary: #8a6960;
+    --color-secundary: #F7D4C4;
+}
+html{
+	font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primary);
+}
+
+.title > h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: var(--color-secundary);
+}
+
+/*card add list*/
+
+    /*propriedades gerais da add_list*/
+.creatlist{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+.add_list{
+    width: 75vw;/*porcentagem 1%*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 15px;
+}
+.creat_list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+.creat_list1 {
+    border-bottom: 5px solid var(--color-secundary);
+    color: var(--color-secundary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+    /*propriedades gerais da add_list*/
+
+    /*propriedades do checkboc*/
+.creat_list1 > div{ /*isto faz com que o x fique no final da div*/
+    width: 68vw;
+    margin-left: 15px;
+}
+
+.form-check-input {
+    margin: 0px !important;
+    --bs-form-check-bg: var(--color-primary) !important;
+    border: 3px solid var(--color-secundary) !important;
+}
+.form-check{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+.form-check a{
+    text-decoration: none;
+    color: var(--color-secundary);
+    font-size: 15px;
+}
+.form-check-label{
+    color: var(--color-secundary);
+    font-weight: 700;
+    border-color: var(--color-secundary);
+    box-shadow: none;
+}
+.form-check-input{
+    border: solid 3px var(--color-secundary) !important;
+    border-radius: 50px;
+    color: var(--color-secundary);
+    box-shadow: none;
+
+}
+.form-check-input:hover{
+    border: solid 3px var(--color-secundary) !important;
+    box-shadow: var(--color-secundary) !important;
+    box-shadow: none;
+}
+.form-check-input:focus{
+    border: solid 3px var(--color-secundary) !important;
+    box-shadow: var(--color-secundary) !important;
+    box-shadow: none;
+}
+.form-check-input:checked{
+    background-color: var(--color-secundary) !important;
+    border-color: var(--color-secundary) !important;
+    box-shadow: none;
+}
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url(<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#8a6960' stroke-linecap='round' stroke-linejoin='round' stroke-width='5' d='m6 10 3 3 6-6'/></svg>) !important;
+
+}
+
+    /*propriedades do checkboc*/
+
+    /*propriedades do X*/
+.creat_list1 > input[type='button']{
+    
+    border: none;
+    font-weight: 800;
+    color: var(--color-secundary);
+    font-size: 3rem;
+    width: 30px;
+    height: 35px;
+}
+
+.creat_list1 > input[type='checkbox']:checked + div{
+    text-decoration:  line-through 3px;
+}
+
+    /*propriedades do X*/
+/*card add list*/
+
+    /*placehoder*/
+.creat_new_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 80%;
+    font: inherit;
+    padding: 10px 0;
+    margin: 10px;
+}
+.creat_new_item > input{
+    background-color: var(--color-primary);
+    outline: none;
+    height: 6rem;
+    width: 55vw;
+    border: 5px solid var(--color-secundary);
+    border-radius: 15px;
+}
+
+
+.creat_new_item > input[type='text']{
+    color: var(--color-secundary);
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.creat_new_item > input::placeholder{
+    color: var(--color-secundary);
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 3rem;
+}
+    /*placehoder*/
