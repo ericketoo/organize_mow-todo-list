@@ -14,3 +14,6 @@ An application that allows me to create and manage tasks, marking them as comple
 <br>
 <br>
 <strong> Mobile screen view </strong>
+<br>
+![toddo-list-mobile](https://user-images.githubusercontent.com/42822606/229565712-0f3c25cd-b017-4929-9108-efab6f9f17df.png)
+
